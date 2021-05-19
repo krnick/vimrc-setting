@@ -26,3 +26,7 @@ cp apktool /usr/local/bin/
 cp apktool.jar /usr/local/bin/
 chmod +x /usr/local/bin/apktool
 chmod +x /usr/local/bin/apktool.jar
+
+
+echo 'export PATH="/usr/local/opt/openjdk@8/bin:$PATH"' >> ~/.profile
+export CPPFLAGS="-I/usr/local/opt/openjdk@8/include"
