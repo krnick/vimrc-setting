@@ -20,3 +20,9 @@ echo 'export PATH="/usr/local/opt/python@3.8/bin:$PATH"' >> ~/.profile
 export LDFLAGS="-L/usr/local/opt/python@3.8/lib"
 
 export PKG_CONFIG_PATH="/usr/local/opt/python@3.8/lib/pkgconfig"
+
+
+cp apktool /usr/local/bin/
+cp apktool.jar /usr/local/bin/
+chmod +x /usr/local/bin/apktool
+chmod +x /usr/local/bin/apktool.jar
