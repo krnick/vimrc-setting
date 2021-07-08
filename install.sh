@@ -30,3 +30,6 @@ chmod +x /usr/local/bin/apktool.jar
 
 echo 'export PATH="/usr/local/opt/openjdk@8/bin:$PATH"' >> ~/.profile
 export CPPFLAGS="-I/usr/local/opt/openjdk@8/include"
+
+
+python3 -m pip install pipenv
